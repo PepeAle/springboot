@@ -1,6 +1,9 @@
-package com.fundamentals.springboot.configuration;
+package com.pepe.springboot.configuration;
 
-import com.fundamentals.springboot.bean.*;
+import com.pepe.springboot.bean.MyBean;
+import com.pepe.springboot.bean.MyBeanSecondImplement;
+import com.pepe.springboot.bean.MyOperation;
+import com.pepe.springboot.bean.MyOperationImplement;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,8 +1,7 @@
-package com.fundamentals.springboot;
+package com.pepe.springboot.configuration;
 
-import com.fundamentals.springboot.bean.MyBean;
-import com.fundamentals.springboot.bean.MyBeanImplement;
-import com.fundamentals.springboot.component.ComponentDependency;
+import com.pepe.springboot.bean.MyBean;
+import com.pepe.springboot.component.ComponentDependency;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

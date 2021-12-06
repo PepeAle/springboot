@@ -1,4 +1,4 @@
-package com.fundamentals.springboot.bean;
+package com.pepe.springboot.bean;
 
 public class MyOperationImplement implements MyOperation{
     @Override

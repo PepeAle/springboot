@@ -1,4 +1,4 @@
-package com.fundamentals.springboot.component;
+package com.pepe.springboot.component;
 
 import org.springframework.stereotype.Component;
 
