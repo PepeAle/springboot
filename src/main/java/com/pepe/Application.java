@@ -14,7 +14,7 @@ public class Application implements CommandLineRunner {
 //	private IComponentDependency componentDependency;
 //	private IBean1 bean;
 //	private IBean3WithDependency bean3WithDependency;
-	private IPersonBean personBean;
+//	private IPersonBean personBean;
 
 
 //	public Application(IComponentDependency componentDependency) {
@@ -33,9 +33,9 @@ public class Application implements CommandLineRunner {
 //		this.bean3WithDependency = bean3WithDependency;
 //	}
 
-	public Application(IPersonBean personBean) {
-		this.personBean = personBean;
-	}
+//	public Application(IPersonBean personBean) {
+//		this.personBean = personBean;
+//	}
 
 	@Override
 	public void run(String... args) {
@@ -44,7 +44,7 @@ public class Application implements CommandLineRunner {
 //		bean3WithDependency.printWithDependency();
 //		bean3WithDependency.displayElements();
 //		Other example
-		personBean.greet(new Person("Pepe",43));
+//		personBean.greet(new Person("Pepe",43));
 
 	}
 
