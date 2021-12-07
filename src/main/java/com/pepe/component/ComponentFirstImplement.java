@@ -1,9 +1,9 @@
-package com.pepe.springboot.component;
+package com.pepe.component;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class ComplementImplement implements ComponentDependency{
+public class ComponentFirstImplement implements IComponentDependency {
 
     @Override
     public void saludar() {
