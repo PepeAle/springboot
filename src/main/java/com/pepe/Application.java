@@ -1,6 +1,7 @@
 package com.pepe;
 
 import com.pepe.bean.IPersonBean;
+import com.pepe.bean.PropertiesBean;
 import com.pepe.pojo.Person;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -15,8 +16,11 @@ public class Application implements CommandLineRunner {
 //	private IBean1 bean;
 //	private IBean3WithDependency bean3WithDependency;
 //	private IPersonBean personBean;
+	private PropertiesBean propertiesBean;
 
-
+	public Application(PropertiesBean propertiesBean) {
+		this.propertiesBean = propertiesBean;
+	}
 //	public Application(IComponentDependency componentDependency) {
 //		this.componentDependency = componentDependency;
 //	}
@@ -45,6 +49,7 @@ public class Application implements CommandLineRunner {
 //		bean3WithDependency.displayElements();
 //		Other example
 //		personBean.greet(new Person("Pepe",43));
+		System.out.println(propertiesBean.function());
 
 	}
 
